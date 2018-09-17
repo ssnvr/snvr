@@ -1,0 +1,16 @@
+.homeTransition-appear{
+    opacity: 0;
+  }
+   
+  .homeTransition-appear.homeTransition-appear-active{
+    opacity: 1;
+    transition: all .8s ease-in-out;
+  }
+.homecontent{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+img{
+  height: 200px;
+  width: 500px
+}

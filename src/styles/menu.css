@@ -1,0 +1,38 @@
+li{
+    display: inline-block;
+    padding: 50 14;
+    padding-right: 20;
+    margin: 20;
+    /* align-content: center; */
+    color: black;
+
+    
+}
+
+.menu{
+
+    padding: 20 14;
+    text-align: center; 
+    color: black;
+    font-family: 'Inconsolata';
+    /* font-size: larger; */
+    width: calc(100vw - 34px);
+
+}
+:active{
+    text-decoration: none;
+}
+:visited{
+    text-decoration: none;
+}
+a:focus,
+.focus a {
+	outline: none !important;
+}
+link1 .focus a{
+    outline: none;
+}
+/* .menulogo1{
+    height: 50px;
+    width: 150px;
+} */

@@ -1,0 +1,11 @@
+.aboutTransition-appear{
+    opacity: 0;
+  }
+   
+  .aboutTransition-appear.aboutTransition-appear-active{
+    opacity: 1;
+    transition: all .8s ease-in-out;
+  }
+.aboutcontent{
+    font-family: 'Courier New', Courier, monospace;
+  }

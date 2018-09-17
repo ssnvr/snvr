@@ -1,0 +1,8 @@
+.galleriesTransition-appear{
+    opacity: 0;
+  }
+   
+  .galleriesTransition-appear.galleriesTransition-appear-active{
+    opacity: 1;
+    transition: all .8s ease-in-out;
+  }

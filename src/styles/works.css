@@ -1,0 +1,39 @@
+.worksTransition-appear{
+    opacity: 0;
+  }
+   
+  .worksTransition-appear.worksTransition-appear-active{
+    opacity: 1;
+    transition: all .8s ease-in-out;
+  }
+  .workscontent{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .galleriesdiv{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+div.polaroid {
+  display: inline-block;
+  text-align: center;
+  height:350px;
+  width: 350px ;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+}
+div.polaroidd {
+  display: inline-block;
+  text-align: center;
+  height:350px;
+  width: 350px ;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+}
+/* img {width: 200px; height: 100px} */
+
+div.container {
+  text-align: center;
+  padding: 10px 10px;
+}
