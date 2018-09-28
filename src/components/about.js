@@ -11,7 +11,9 @@ const About = () =>{
     transitionEnter={false}
     transitionLeave={false}>
     <div className="aboutcontent">
-      
+    <p>A home of amateur photography</p>
+        <p>Find me on <a href="http://www.instagram.com/sjebeng/" target="_blank" style={{color:'pink'}}>Instagram</a></p>
+        <p>Email me @ sara.snvr@gmail.com</p>
     </div>
     </CSSTransitionGroup>
   )

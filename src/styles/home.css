@@ -14,3 +14,6 @@ img{
   height: 200px;
   width: 500px
 }
+div{
+  white-space: pre;
+}

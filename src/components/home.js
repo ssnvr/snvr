@@ -1,8 +1,14 @@
 import React from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
 import '../styles/home.css'
-import Logo from '../logo1_orig.jpg'
- 
+import { Link } from 'react-router-dom'
+
+
+const socialMediaIcons = [
+  {
+    url: 'https://www.instagram.com/sjebeng/',
+    className: 'ig',
+  }]
 
 const Home = () =>{
 
@@ -14,8 +20,9 @@ const Home = () =>{
         transitionEnter={false}
         transitionLeave={false}>
         <div className="homecontent">
-          idk
+        
         </div>
+   
     </CSSTransitionGroup>
     )
   }

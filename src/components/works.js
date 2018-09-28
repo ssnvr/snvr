@@ -4,7 +4,8 @@ import '../styles/works.css'
 import Gallery1 from './gallery1';
 import Gallery2 from './gallery2';
 import Logo from '../logo1_orig.jpg'
- 
+import { Link } from 'react-router-dom'
+
 const Works = () =>{
   return(
     <CSSTransitionGroup
@@ -19,42 +20,44 @@ const Works = () =>{
       
       <div className="galleriesdiv" style={{padding:25, paddingLeft:70, display: 'inline-block'}}>
       <div className="polaroid" style={{margin:10}}>
-      <img src={Logo} style={{height:200, width:250}}/>
+      <Link to="/gallery1"><img src={Logo} style={{height:200, width:250}} onClick/></Link>
       <div className="container">
-Gallery1
-</div>
+      Gallery 1
+      </div>
 </div>
 
 <div className="polaroid"style={{margin:10}}>
-      <img src={Logo} style={{height:200, width:250}}/>
+<Link to="/gallery2">
+      <img src={Logo} style={{height:200, width:250}}/></Link>
       <div className="container">
-Gallery2
+      Gallery 2
 </div>
 </div>
 <div className="polaroid"style={{margin:10}}>
-      <img src={Logo} style={{height:200, width:250}}/>
+<Link to="/gallery3"><img src={Logo} style={{height:200, width:250}} onClick/></Link>
       <div className="container">
-Gallery3
+      Gallery 3
 </div>
 </div>
+<p></p>
 <div className="polaroidd" style={{margin:10}}>
-      <img src={Logo} style={{height:200, width:250}}/>
+<Link to="/gallery4"><img src={Logo} style={{height:200, width:250}} onClick/></Link>
       <div className="container">
-Gallery4
-</div>
+      Gallery 4
+      </div>
 </div>
 
 <div className="polaroidd"style={{margin:10}}>
-      <img src={Logo} style={{height:200, width:250}}/>
+<Link to="/gallery5"><img src={Logo} style={{height:200, width:250}} onClick/></Link>
       <div className="container">
-Gallery5
+      Gallery 5
+      </div>
 </div>
-</div>
-<div className="polaroidd"style={{margin:20}}>
-      <img src={Logo} style={{height:200, width:250}}/>
+<div className="polaroidd"style={{margin:10}}>
+<Link to="/gallery6"><img src={Logo} style={{height:200, width:250}} onClick/></Link>
       <div className="container">
-Gallery6
-</div>
+      Gallery 6
+      </div>
 </div>
 </div>
 

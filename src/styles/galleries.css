@@ -1,8 +1,19 @@
-.galleriesTransition-appear{
+.galleryTransition-appear{
     opacity: 0;
   }
    
-  .galleriesTransition-appear.galleriesTransition-appear-active{
+  .galleryTransition-appear.galleryTransition-appear-active{
     opacity: 1;
     transition: all .8s ease-in-out;
   }
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 105px;
+} 
+p.overflow{
+  overflow-wrap: break-word;
+}
